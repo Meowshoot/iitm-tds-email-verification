@@ -1,0 +1,13 @@
+name: Verification Workflow
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 22f1000561@ds.study.iitm.ac.in
+        run: |
+          echo "Hello, world!"
